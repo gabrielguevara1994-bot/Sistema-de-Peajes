@@ -18,6 +18,38 @@ public class Vehiculo {
 		System.out.println("Tipo: " + tipo);
 		
 	}
+
+	public String getPlaca() {
+		return placa;
+	}
+
+	public void setPlaca(String placa) {
+		this.placa = placa;
+	}
+
+	public String getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+
+	public Conductor getPropietario() {
+		return propietario;
+	}
+
+	public void setPropietario(Conductor propietario) {
+		this.propietario = propietario;
+	}
+
+	public tagElectronico getTag() {
+		return tag;
+	}
+
+	public void setTag(tagElectronico tag) {
+		this.tag = tag;
+	}
 	
 	
 
